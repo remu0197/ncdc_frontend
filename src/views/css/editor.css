@@ -1,0 +1,9 @@
+.textForm {
+    border-color: rgba(0,0,0,0);
+    border-radius: 8px;
+}
+
+.textFrom:focus {
+    border-color: #4cb3f8;
+    outline: 0px;
+}

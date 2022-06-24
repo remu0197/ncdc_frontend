@@ -1,0 +1,129 @@
+button {
+    height: 40px;
+    min-width: 40px;
+    width: 90px;
+    border-radius: 4px;
+    border-color: rgba(0,0,0,0);
+}
+
+.smallButton {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.button{
+    background-color: #4cb3f8;
+    color: white;
+}
+
+.button:hover {
+    background-color: #3c8ec4;
+}
+
+.button:active {
+    background-color: #347cab;
+}
+
+.grayButton {
+    border-color: rgba(0,0,0,0);
+    background-color: #b3b3b3;
+    color: white;
+}
+
+.grayButton:hover {
+    background-color: #999999;
+}
+
+.grayButton:active {
+    background-color: #808080;
+}
+
+.frameButton {
+    background-color: white;
+    border-color: #4cb3f8;
+    color:#4cb3f8;
+    border-width: 2px;
+}
+
+.frameButton:hover {
+    background-color: #cccccc;
+}
+
+.frameButton:active {
+    background-color: #b3b3b3;
+}
+
+.image{
+    background-color: rgba(0,0,0,0);
+    height: 24px;
+    width: 24px;
+}
+
+.logo {
+    margin-top:30px;
+    background-color: white;
+    display: flex;
+}
+
+.logo_image{
+    height: 32px;
+    width: auto;
+    background-color: white;
+}
+
+.logo_font{
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    margin-left: 5px;
+    margin-top:-3px;
+}
+
+.button_font {
+    font-size: 10px;
+    margin: -6px;
+}
+
+.menuItem {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    padding-left: 10px;
+    background-color: white;
+    border-color: #333333;
+    font-family: "Noto Sans JP";
+}
+
+.menuItem:hover {
+    background-color: #f5f8fa;
+}
+
+.menuItemActive {
+    background-color: #f5f8fa;
+    color: #32a8f8
+}
+
+.itemEdit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.editButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    flex-grow: 3;
+}
+
+.buttonArea {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 20px;
+    width: 90px;
+}
